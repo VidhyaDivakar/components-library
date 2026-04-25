@@ -1,9 +1,16 @@
 import React from 'react';
 import { AlertBox } from './components/AlertBox/AlertBox';
-import { UserProfileCard } from './components/UserProfileCard/UserProfileCard'
+import { UserProfileCard } from './components/UserProfileCard/UserProfileCard';
 
 
 function App() {
+   const user = {
+    id: '1',
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    role: 'Software Engineer',
+    avatarUrl: 'https://example.com/avatar.jpg'
+  };
   return (
     <div>
       <AlertBox
