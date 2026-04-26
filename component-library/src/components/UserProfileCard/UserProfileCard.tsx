@@ -1,3 +1,13 @@
+/**
+ * UserProfileCardProps defines the structure for user profile display.
+ *
+ * @property user - User object containing id, name, email, role, avatarUrl
+ * @property showEmail - Controls visibility of email field
+ * @property showRole - Controls visibility of role field
+ * @property onEdit - Callback function triggered when edit button is clicked
+ * @property children - Optional custom content displayed below user info
+ */
+
 import React from 'react';
 import type { User } from '../../types/index'; 
 import type { UserProfileCardProps } from '../../types/index';
